@@ -1,32 +1,155 @@
 {
-  --background-image: url('https://media.discordapp.net/attachments/1347203722538651781/1355217151321178152/IMG_3879.jpg?ex=67e81fd3&is=67e6ce53&hm=8a39ba7085363e67c2105ec0641d80d9bbae5ebacf49935aa1b75733ab19ba39&');
-  --background-image-blur: 0px;
-  --background-image-size: cover;
-  --background-image-position: center;
-  --popout-image: var(--background-image);
-  --popout-image-blur: 0px;
-  --popout-image-size: cover;
-  --popout-image-position: center;
-  --overlay-image: var(--background-image);
-  --overlay-image-blur: 0px;
-  --overlay-image-size: cover;
-  --overlay-image-position: center;
-  --home-button-size: cover;
-  --home-button-position: center;
-  --serverlist-brightness: 0;
-  --left-brightness: 0.02;
-  --middle-brightness: 0.52;
-  --right-brightness: 0.5;
-  --overlay-brightness: 0.5;
-  --gradient-primary: 103,58,183;
-  --gradient-secondary: 63,81,181;
-  --link-colour: #00b0f4;
-  --scrollbar-colour: rgba(255,255,255,0.05);
-  --gradient-direction: 320deg;
-  --tint-colour: 33,150,243;
-  --tint-brightness: 0;
-  --font: gg sans;
-  --window-padding: 26px;
-  --window-roundness: 10px;
-  --update-notice-1: none;
-}
+    "name": "It's Ourple!!",
+    "description": "me when i fuckin ourple",
+    "authors": [
+        {
+            "name": "KKing",
+            "id": "Noneya"
+        }
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": [
+            "#297bff"
+        ],
+        "HEADER_SECONDARY": [
+            "#b30ba7"
+        ],
+        "TEXT_NORMAL": [
+            "#ffffff"
+        ],
+        "TEXT_MUTED": [
+            "#7b0a8a"
+        ],
+        "TEXT_DANGER": [
+            "#7b0a8a"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#b30ba7"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#7b0a8a"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#7a0975"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#54065e"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#82abed"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#4223db"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#000000"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#000000"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#2d0333"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#000000"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#000000"
+        ],
+        "BACKGROUND_MENTIONED": [
+            "#2d0333"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#000000"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#000000"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "#000000"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#transparent"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "transparent"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#1a1a1a"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "transparent"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "#b30ba7"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "000000"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "#b30ba7"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "#000000"
+        ],
+        "KEYBOARD": [
+            "#000000"
+        ],
+        "CHANNEL_TEXT_AREA_PLACEHOLDER": [
+            "#b30ba7"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#b30ba7"
+        ],
+        "CHANNEL_ICON": [
+            "#b30ba7"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#b30ba7"
+        ],
+        "REDESIGN_ACTIVITY_CARD_BORDER": [
+            "#2d0333"
+        ],
+        "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
+            "#2d0333"
+        ],
+        "CHAT_BACKGROUND": [
+            "#000000"
+        ],
+        "SPOILER_HIDDEN_BACKGROUND": [
+            "#DCDDDE"
+        ]
+    },
+    "rawColors": {
+        "PRIMARY": "#297bff",
+        "PRIMARY_100": "#297bff",
+        "PRIMARY_200": "#FFFFFF",
+        "PRIMARY_300": "#297bff",
+        "PRIMARY_360": "#297bff",
+        "PRIMARY_400": "#297bff",
+        "PRIMARY_500": "#000000",
+        "PRIMARY_600": "#000000",
+        "PRIMARY_630": "#000000",
+        "PRIMARY_660": "#000000",
+        "PRIMARY_700": "#000000",
+        "PRIMARY_800": "#000000",
+        "PRIMARY_900": "#7b0a8a",
+        "BRAND_360": "#b30ba7",
+        "YELLOW_300": "#b30ba7",
+        "BRAND_260": "#b30ba7",
+        "BRAND_500": "#b30ba7",
+        "BRAND_560": "#b30ba7",
+        "GREEN_360": "#b30ba7",
+        "RED_400": "#b30ba7",
+        "ORANGE_345": "#b30ba7",
+        "RED_560": "#54065e",
+        "GREEN_345": "#b30ba7",
+        "BLUE_345": "#b30ba7"
+    },
+    "spec": 2,
+    "background": {
+        "url": "https://imgur.com/a/yTPNd0G",
+        "alpha": 0.5,
+        "color": "#3264a8"
+    }
+    }
